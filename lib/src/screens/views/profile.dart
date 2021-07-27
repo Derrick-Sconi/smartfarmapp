@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 
-class TryApp extends StatefulWidget {
+class ProfileScreen extends StatefulWidget {
   @override
-  _TryAppState createState() => _TryAppState();
+  _ProfileScreenState createState() => _ProfileScreenState();
 }
 
-class _TryAppState extends State<TryApp> {
+class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,7 +24,7 @@ class _TryAppState extends State<TryApp> {
           children: <Widget>[
             Center(
               child: CircleAvatar(
-                backgroundImage: AssetImage('lib/assets/avatar2.jpg'),
+                backgroundImage: AssetImage('assets/avatar2.jpg'),
                 radius: 40.0,
               ),
             ),

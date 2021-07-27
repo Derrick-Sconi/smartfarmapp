@@ -39,7 +39,7 @@ class _PlantInfoState extends State<PlantInfo> {
                 fit: StackFit.expand,
                 children: <Widget>[
                   Image.asset(
-                    'lib/assets/plant6.jpg',
+                    'assets/plant6.jpg',
                     fit: BoxFit.cover,
                   ),
                   const DecoratedBox(

@@ -32,7 +32,7 @@ class _AlertsState extends State<Alerts> {
                 fit: StackFit.expand,
                 children: <Widget>[
                   Image.asset(
-                    'lib/assets/plant5.jpg',
+                    'assets/plant5.jpg',
                     fit: BoxFit.cover,
                   ),
                   const DecoratedBox(
